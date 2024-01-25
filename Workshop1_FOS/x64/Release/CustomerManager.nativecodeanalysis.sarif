@@ -1,0 +1,350 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'sql::Variant::variant' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/mysql-connector_8.2.0/include/jdbc/cppconn/variant.h"
+                },
+                "region": {
+                  "startLine": 298,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sql::Variant::{ctor}",
+                  "decoratedName": "??0Variant@sql@@QEAA@AEBV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "sql::Variant::variant"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Customer::next' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Customer.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Customer::{ctor}",
+                  "decoratedName": "??0Customer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Customer::next"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Customer::postcode' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Customer.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Customer::{ctor}",
+                  "decoratedName": "??0Customer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Customer::postcode"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Customer::customerID' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Customer.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Customer::{ctor}",
+                  "decoratedName": "??0Customer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Customer::customerID"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/mysql-connector_8.2.0/include/jdbc/cppconn/variant.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "662d19d13b512b46d6cbcae8607894d7cee2283085e89ac26d67b54895b996a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Customer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "acb829c747def2ac370e36ccfe27cb8fdc889202308a84d9d9513487d0357525"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/customermanager.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "cbab3e3c17e22af64d77f5e39cebc2c83f94d9f1eb6e6a0450b282399515eada"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/databaseconnection.h"
+          },
+          "hashes": {
+            "sha-256": "84502af2d703323bb841beb9b2036d7b99f07bc60ebb660e9b5bf3c350415baf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/mysql/jdbc.h"
+          },
+          "hashes": {
+            "sha-256": "9f530d451bc2808846d37f7955dac7ba2b64d1cee5341ccb8ba34de806410933"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/mysql_connection.h"
+          },
+          "hashes": {
+            "sha-256": "3dad388c0001f3339775591efff40f1ff89a6cfbe22a3772c59cab71ed89766d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/connection.h"
+          },
+          "hashes": {
+            "sha-256": "4e2f92238e121e11e6ea543627c59bb444c2122d1afdb94bc41363084a70f668"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/build_config.h"
+          },
+          "hashes": {
+            "sha-256": "bd849b8d98d54aca70328d5d68e25420ffdbea183ad64b7e31f5abcbcc299f54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/warning.h"
+          },
+          "hashes": {
+            "sha-256": "dab02f93c236b8e90ab5cfe84b6114014ce213607ca9ca9b456f20956b2f2749"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/sqlstring.h"
+          },
+          "hashes": {
+            "sha-256": "5bd79befc1696be15f2006294accd6fa7187161e235eb3e2388c4265ac608c40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/exception.h"
+          },
+          "hashes": {
+            "sha-256": "da2552c8654250f7f26ac4dd31aceda06f43f7ddd1b9ee79ed023fe403258112"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/mysql_driver.h"
+          },
+          "hashes": {
+            "sha-256": "633ff3e3bd40c40b8a140846ad94245b2dc8f3e85bc092cc2a9c83dc7420a072"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/driver.h"
+          },
+          "hashes": {
+            "sha-256": "47e580cc1dc685caea665cd9136b1fa97a00170a45eb088a90195b5310f936e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/callback.h"
+          },
+          "hashes": {
+            "sha-256": "45e7da7745c363b846c02346a99d58d574db019a2e4d82d5e121a5d32289a35e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/mysql_error.h"
+          },
+          "hashes": {
+            "sha-256": "92b4b9801eae43ca5e61a1ea6bef059d3febeda5afe8a223086a534a07e8644f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/config.h"
+          },
+          "hashes": {
+            "sha-256": "715f243dc7df0611d3db57c6d2d5895c2c125838e3254690e62236ecace37471"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/datatype.h"
+          },
+          "hashes": {
+            "sha-256": "4e640ed69757a326db60a20d411b23220b8a8edc16d0b0100197249daa74d641"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/metadata.h"
+          },
+          "hashes": {
+            "sha-256": "7918562368724685079b421db4971576234ed37ddf0725d20ed383a428efbed4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/parameter_metadata.h"
+          },
+          "hashes": {
+            "sha-256": "046b75a0ca6554b386223e2fbda8fe636659252151262e37317809490aac6527"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/prepared_statement.h"
+          },
+          "hashes": {
+            "sha-256": "e3106e782c3bd8f626a0ba0a432efec513f571b14d05efc4a5868db6c2d689e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/statement.h"
+          },
+          "hashes": {
+            "sha-256": "1cd4eea4707d8171e275a5c86417b6f95d92a7b58d32038e32a8449611536d4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/resultset.h"
+          },
+          "hashes": {
+            "sha-256": "f7882298cb90c6fdcf0b0049f469652742010516ba7361b28629d9ffc1106dbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/resultset_metadata.h"
+          },
+          "hashes": {
+            "sha-256": "9627cd3dd381c63760eb3a2ebcf40d88ff3c93f93a5b3696c2e2568a895e7481"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/mysql-connector_8.2.0/include/jdbc/cppconn/version_info.h"
+          },
+          "hashes": {
+            "sha-256": "c9cb907cd3f41920ce509ab51bc3fe548d25fc9e2bbc58924d03c8a2870a7654"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/customermanager.h"
+          },
+          "hashes": {
+            "sha-256": "f11cd6605b62a84b17b290fcbb8933b1107a214163c3d4308433f18adb177e19"
+          }
+        }
+      ]
+    }
+  ]
+}

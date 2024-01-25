@@ -1,0 +1,661 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CusOrder::orderID' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/CusOrder.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CusOrder::{ctor}",
+                  "decoratedName": "??0CusOrder@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CusOrder::orderID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CusOrder::customerID' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/CusOrder.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CusOrder::{ctor}",
+                  "decoratedName": "??0CusOrder@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CusOrder::customerID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CusOrder::mealID' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/CusOrder.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CusOrder::{ctor}",
+                  "decoratedName": "??0CusOrder@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CusOrder::mealID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CusOrder::quantity' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/CusOrder.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CusOrder::{ctor}",
+                  "decoratedName": "??0CusOrder@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CusOrder::quantity"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CusOrder::next' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/CusOrder.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CusOrder::{ctor}",
+                  "decoratedName": "??0CusOrder@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CusOrder::next"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Delivery::next' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Delivery.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Delivery::{ctor}",
+                  "decoratedName": "??0Delivery@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Delivery::next"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Delivery::delivery_postcode' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Delivery.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Delivery::{ctor}",
+                  "decoratedName": "??0Delivery@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Delivery::delivery_postcode"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Delivery::deliveryID' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Delivery.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Delivery::{ctor}",
+                  "decoratedName": "??0Delivery@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Delivery::deliveryID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Delivery::orderID' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Delivery.h"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Delivery::{ctor}",
+                  "decoratedName": "??0Delivery@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Delivery::orderID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Meal::next' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Meal.h"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Meal::{ctor}",
+                  "decoratedName": "??0Meal@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Meal::next"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Meal::meal_price' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Meal.h"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Meal::{ctor}",
+                  "decoratedName": "??0Meal@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Meal::meal_price"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Meal::mealID' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Meal.h"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Meal::{ctor}",
+                  "decoratedName": "??0Meal@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Meal::mealID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Customer::next' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Customer.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Customer::{ctor}",
+                  "decoratedName": "??0Customer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Customer::next"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Customer::postcode' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Customer.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Customer::{ctor}",
+                  "decoratedName": "??0Customer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Customer::postcode"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Customer::customerID' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Customer.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Customer::{ctor}",
+                  "decoratedName": "??0Customer@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Customer::customerID"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Employee::next' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Employee.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Employee::{ctor}",
+                  "decoratedName": "??0Employee@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Employee::next"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Employee::postcode' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Employee.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Employee::{ctor}",
+                  "decoratedName": "??0Employee@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Employee::postcode"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'Employee::monthly_salary' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Employee.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Employee::{ctor}",
+                  "decoratedName": "??0Employee@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Employee::monthly_salary"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/CusOrder.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "63acb0c33f7e5530397321167a319d82155404fb0af97124d5747d1399336b7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Delivery.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d5ba01a88c1a964771c7f293c726f15012a955d71b61568f4123015611eb742b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Meal.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8e1623086cb73efda6c24fb8686ef1c62213e31faa30d8c258aedd1c72ba504a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Customer.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "acb829c747def2ac370e36ccfe27cb8fdc889202308a84d9d9513487d0357525"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/MyWin11/Desktop/Workshop1_FOS/Employee.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "63bd3d04af490a2ea6d5451d6ed9e96c2f116e7cff0a0f8a82e74676bd84bebf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/userinterface.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "aa5721b8b3c278553bd600502e62c1ef8b62e7c3ae638ddc10bda1619e7b5fc1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/userinterface.h"
+          },
+          "hashes": {
+            "sha-256": "9207bbc1a0d63aadba57e23be092eda23e281c97ebf6b0f692c9abcf1abfa195"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/mealmanager.h"
+          },
+          "hashes": {
+            "sha-256": "51728c7b16946898ee242b34fd8c2beeb4f3101812fe578fb32c62d85872f265"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/customermanager.h"
+          },
+          "hashes": {
+            "sha-256": "f11cd6605b62a84b17b290fcbb8933b1107a214163c3d4308433f18adb177e19"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/employeemanager.h"
+          },
+          "hashes": {
+            "sha-256": "9262a3f137d916a10769902db31099e0a4356cdad011844c313044ef9f605102"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/cusordermanager.h"
+          },
+          "hashes": {
+            "sha-256": "3ba653e88f67ab567608aada9997e9f7e71bbcfa80cc0230bbc7146a245e49ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mywin11/desktop/workshop1_fos/deliverymanager.h"
+          },
+          "hashes": {
+            "sha-256": "45d82e6531649462cb25e353891ad742e23bc1095d1d04afd543b84c7be504ec"
+          }
+        }
+      ]
+    }
+  ]
+}
